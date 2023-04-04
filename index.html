@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>My Portfolio</title>
+  </head>
+ 
+  <body>
+  
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="projects.html">Projects</a>    
+    <a href="resourses.html">Resourses</a>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="title">
+    <h1><center>Vinh Tran</center></h1>
+    <h1><center>Web Developer</center></h1>
+    <h1><center>Python Programmer</center></h1>
+  </div>
+
+    <article>
+      <h3>My name is Vinh Tran. Just moved to San Antonio in 2022 from Arizona. I am currently studying full time bootcamp software engineering, hoping to get knowledge in the coding industry for a bright future. Some of my experiences are:
+         </h3>
+      <ul>
+        <li><strong>Working in fast paced</strong></li>
+        <li><strong>Good communication</strong></li>
+        <li><strong>Strong custumer service</strong></li>
+      </ul>
+    </article>
+    <img src="1.jpg" alt="" style="height: 200px; width:200px; margin-left: 20px">
+    <br>
+    <img src="2.jpg" alt="" style="height: 200px; width:200px;margin-left: 40px">
+
+
+<div class="contact-form">
+  <article>
+    <h2>Contact Me</h2>
+    
+    <form>
+        <label for="name"><strong>Name</strong></label>  
+        <br>          
+        <input type="text" id="name" placeholder="Your name">
+        <br>
+        <label for="message"><strong>Message</strong></label>
+        <br>        
+        <textarea id="message" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="submit"></label>
+
+        <input type="submit" id="submit">
+    </form>
+</article>
+</div>
+
+
+
+<div id="my_bouncing_box" style= "background-color: #a27a92; border-radius: 100px; position: absolute; left: 0px; top: 0px; min-width: 70px; min-height: 70px; text-align: center; font-weight: bold; color: #999;" ></div>
+<script type="text/javascript">
+ let xposition= 10
+ let yposition=10
+ let xspeed=4
+ let yspeed=4
+box=document.getElementById("my_bouncing_box")
+             function update(){
+                  box.style.left=xposition+'px'
+                  box.style.top=yposition+'px'
+             }
+  
+setInterval(function(){
+   update()
+   if (xposition+box.clientWidth >= window.innerWidth || xposition<=0)
+   {xspeed=-xspeed}
+    if (yposition+box.clientWidth >= window.innerHeight || yposition<=0)
+   {yspeed=-yspeed}
+
+
+  xposition+=xspeed
+  yposition+=yspeed
+},30) 
+     
+</script>
+
+  
+  </body>
+  </html>
+  
+
+ 
