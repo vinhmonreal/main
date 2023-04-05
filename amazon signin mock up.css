@@ -1,0 +1,149 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.form {
+    margin-top: 50px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: 2px solid gray;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.sign-in{
+    text-align: left;
+    margin-left:  20px;
+    } 
+    
+.user-promt{
+    margin-left:  20px;
+}    
+
+
+
+.email{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 360px;
+}
+
+.column-a {
+    float: left;
+    width: 200px;
+    height: 32px;
+    text-align: center;
+    
+  }
+  .column-b {
+    float: right;
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    margin-top: 17px;
+  }  
+
+
+
+.pw{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 360px;
+}
+
+
+
+
+.continue-button{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(230, 174, 7);
+    width: 366px;
+    height: 35px;
+    
+}  
+
+
+
+.NHelp{
+    float: left;
+    display: block;
+    margin: 30px 40px;
+    
+}
+
+.create-button{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(202, 202, 202);
+    width: 375px;
+    height: 35px;
+}
+
+
+.middle-column-a{
+    
+    background-color: white;
+    width: 140px;
+    margin-left: -720px;
+    text-align: center;
+}
+
+
+  
+  .middle-row {
+    justify-content: center;
+    display: flex;
+    margin-top: -43px;
+    
+       
+    
+  }
+
+
+
+.bottom-column{
+    padding: 10px;
+}
+
+  .a{
+    text-align: right;
+    
+  }
+  .b{
+    text-align: center;
+  }
+  .c{
+   
+    text-align: left;
+  }
+
+  .bottom-row {
+    justify-content: center;
+    display: flex;
+  }
+ 
+
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  a:active {
+    color: red;
+  }

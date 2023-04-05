@@ -1,0 +1,13 @@
+.contain{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    border: 2px solid red;
+    max-width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
